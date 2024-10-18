@@ -1,0 +1,8 @@
+# Copyright (c) 2020 Pete Johanson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CHIRALITY_LEFT
+	def_bool $(shields_list_contains,chirality_tb_left)
+
+config SHIELD_CHIRALITY_RIGHT
+	def_bool $(shields_list_contains,chirality_tb_right)
