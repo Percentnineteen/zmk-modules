@@ -23,6 +23,10 @@ config BT_MAX_CONN
 config BT_MAX_PAIRED
   default 6
 
+config ZMK_DISABLE_DONGLE_SOFT_OFF
+  bool "Disable the soft off behavior for dongle"
+  default y
+
 endif
 
 if SHIELD_BIFURCA_LEFT
